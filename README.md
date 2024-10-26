@@ -1,25 +1,25 @@
-### Task Management Backend
+## Task Management Backend
 The Task Management Backend project is a robust and scalable server-side application designed to handle user authentication and task management functionalities. Built with the NestJS framework, this application leverages modern web technologies and best practices to ensure security, performance, and maintainability.
 
-### Key Features
-## User Authentication
+## Key Features
+### User Authentication
 Registration: Secure user registration with hashed passwords using bcrypt.
 Login: User login functionality using JWT (JSON Web Tokens) for secure session management.
 Token Generation: Generates and validates JWT tokens for user sessions.
-### Task Management
+## Task Management
 CRUD Operations: Supports Create, Read, Update, and Delete operations for tasks.
 User-Specific Tasks: Each user can manage their own tasks, ensuring data privacy and integrity.
-### Security
+## Security
 Password Hashing: User passwords are securely hashed with bcrypt before storage.
 JWT Authentication: Implements secure authentication using JSON Web Tokens.
 CORS: Configured to allow cross-origin requests from the frontend application, enhancing security.
-### Scalability
+## Scalability
 Modular Architecture: Designed with a modular architecture, making it easy to extend and maintain.
 Service-Oriented: Encapsulates business logic within services, promoting reusability and separation of concerns.
-### Developer-Friendly
+## Developer-Friendly
 TypeScript: Written in TypeScript to enhance type safety and improve the developer experience.
 NestJS: Utilizes the NestJS framework, providing a powerful CLI and a well-structured project layout.
-### Technologies Used
+## Technologies Used
 NestJS: A progressive Node.js framework for building efficient and scalable server-side applications.
 TypeScript: A statically typed superset of JavaScript that improves code quality and maintainability.
 JWT: JSON Web Tokens for secure authentication.
